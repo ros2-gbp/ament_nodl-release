@@ -1,0 +1,12 @@
+Source: ros-iron-ament-nodl
+Section: misc
+Priority: optional
+Maintainer: Ubuntu Robotics <ubuntu-robotics@lists.launchpad.net>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-ament-nodl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ros-workspace
+Description: Ament extension for exporting NoDL .xml files
