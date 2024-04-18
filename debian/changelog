@@ -1,0 +1,8 @@
+ros-jazzy-ament-nodl (0.1.0-7bookworm) bookworm; urgency=high
+
+  * initial release
+  * Contributors: Ted Kern
+
+ -- Ubuntu Robotics <ubuntu-robotics@lists.launchpad.net>  Thu, 28 May 2020 00:00:00 -0000
+
+
