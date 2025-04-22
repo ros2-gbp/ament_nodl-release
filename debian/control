@@ -1,0 +1,12 @@
+Source: ros-kilted-ament-nodl
+Section: misc
+Priority: optional
+Maintainer: Ubuntu Robotics <ubuntu-robotics@lists.launchpad.net>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ament-nodl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ros-workspace
+Description: Ament extension for exporting NoDL .xml files
